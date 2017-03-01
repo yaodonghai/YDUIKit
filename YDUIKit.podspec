@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "YDUIKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "all kinds of categories for iOS develop"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.authors            = { "yaodonghai" => "" }
   s.platform     = :ios
 
-  s.source           = { :git => 'https://github.com/yaodonghai/YUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yaodonghai/YDUIKit.git', :tag => s.version.to_s }
 
   s.source_files = 'YDUIKit/YDLabel/**/*'
   s.framework  = "UIKit"
